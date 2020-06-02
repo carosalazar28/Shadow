@@ -1,0 +1,68 @@
+.head {
+  width: 400px;
+  height: 400px;
+  background-color: #7ED7DF;
+  position: relative;
+  box-shadow: 20px 20px 20px 0px gray;
+}
+
+.eye {
+  width: 100px;
+  height: 100px;
+  background-color: #F5D589;
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+.mouth {
+  width: 150px;
+  height: 30px;
+  background-color: #FFA5CD;
+  position: absolute;
+  top: 300px;
+  right: 0;
+}
+
+.pupil {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+.bodys {
+  width: 320px;
+  height: 600px;
+  background-image: radial-gradient(circle at 20px 20px, #7ED7DF, black);
+  position: relative;
+  box-shadow: 20px 20px 20px 0px gray;
+}
+
+.arm {
+  width: 200px;
+  height: 60px;
+  background-color: red;
+  position: absolute;
+  top: 250px;
+  left: 200px;
+  box-shadow: 10px 15px 20px 0px gray;
+}
+
+.box7 {
+  width: 240px;
+  height: 100px;
+  border-style: dotted;
+  border-color: blue;
+  position: absolute;
+  top: 280px;
+  right: 10px;
+  box-shadow: 5px 5px 30px 20px gray;
+  text-shadow: 2px 2px 30px red;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+}
